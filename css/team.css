@@ -1,39 +1,42 @@
 .team {
-padding: 120px 0;
-background-color: #f4f4fd;
+    padding: 120px 0;
+    background-color: #f4f4fd;
 }
 
 .team-list {
-display: flex;
-gap: 24px;
+    display: flex;
+    gap: 24px;
 }
 
 .team-item {
-width: 264px;
-
-background-color: #fff;
+    width: 264px;
+    background-color: #fff;
+    border-radius: 0 0 4px 4px;
+    overflow: hidden;
 }
 
 .team-image {
-width: 264px;
-height: 260px;
+    width: 264px;
+    height: 260px;
+    display: block;
+}
+
+.team-card-content {
+    padding: 32px 16px;
 }
 
 .team-title {
-margin-top: 32px;
-margin-bottom: 8px;
+    margin-bottom: 8px;
 
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-text-align: center;
-color: #2e2f42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
 }
 
 .team-text {
-    padding-bottom: 32px;
-
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
