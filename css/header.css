@@ -1,3 +1,8 @@
+
+#header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .logo {
 margin-right: 76px;
 
@@ -23,14 +28,14 @@ gap: 40px;
 }
 
 .nav-link {
-padding: 24px 0;
-
-font-family: "Roboto", sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #2e2f42;
+  display: block;
+  padding: 24px 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .nav-link:hover,
